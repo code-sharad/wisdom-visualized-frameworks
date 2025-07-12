@@ -42,7 +42,7 @@ export const FrameworkCard = ({ framework, index }: FrameworkCardProps) => {
   return (
     <Card
       className={`
-        relative overflow-hidden transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] cursor-pointer
+        relative overflow-hidden bg-[#ffffff] transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] cursor-pointer
           hover:scale-[1.02] group
         ${isHovered ? 'shadow-lg apple-card-glow' : 'shadow-md'}
         ${isExpanded ? 'col-span-full md:col-span-2 lg:col-span-3' : ''}

@@ -45,7 +45,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-stone-200  relative overflow-hidden">
+    <div className="min-h-screen bg-[#faf9f5]  relative overflow-hidden">
 
       <div className="relative z-10">
         {/* Header */}
@@ -70,7 +70,7 @@ const Index = () => {
                 placeholder="Search frameworks, models, and tools..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="pl-12 h-14 text-lg bg-card/50 border-border/50 focus:border-primary/50 backdrop-blur-sm"
+                className="pl-12 h-14 text-lg bg-[#eeebe1] border-stone-300 focus:stone-400  "
               />
             </div>
 
