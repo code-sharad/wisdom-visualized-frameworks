@@ -107,7 +107,7 @@ const Index = () => {
         </div>
 
         {/* Frameworks Grid */}
-        <main className="container mx-auto px-4 pb-20">
+        <main className={`container mx-auto px-4 pb-20 transition-all duration-1500 ${isLoaded ? 'animate-slide-up opacity-100' : 'opacity-0'}`}>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
             {filteredFrameworks.map((framework, index) => (
               <div
